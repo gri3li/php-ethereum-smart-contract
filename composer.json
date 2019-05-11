@@ -1,0 +1,23 @@
+{
+    "name": "gri3li/ethereum-smart-contract",
+    "description": "Ethereum Smart Contract Wrapper Class",
+    "keywords": ["ethereum", "eth", "smart contract", "token", "erc20", "erc721"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mikhail Gerasimov",
+            "email": "migerasimoff@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-gmp": "*",
+        "sc0vu/web3.php": "^0.1.4",
+        "sop/crypto-types": "^0.2.1",
+        "web3p/ethereum-tx": "^0.3.4"
+    },
+    "autoload": {
+        "psr-4": { "gri3li\\EthereumSmartContract\\": "src" }
+    }
+}

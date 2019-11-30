@@ -13,9 +13,8 @@
     "require": {
         "php": ">=7.0",
         "ext-gmp": "*",
-        "sc0vu/web3.php": "^0.1.4",
-        "sop/crypto-types": "^0.2.1",
-        "web3p/ethereum-tx": "^0.3.4"
+        "sc0vu/web3.php": ">=0.1.4",
+        "web3p/ethereum-tx": ">=0.3.4"
     },
     "autoload": {
         "psr-4": { "gri3li\\EthereumSmartContract\\": "src" }
